@@ -1,0 +1,446 @@
+ 
+ 
+ /* NAVIGATION */
+
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 310vh;
+    background: url(img9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+}
+
+#navbar .logo {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+#navbar #logo {
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+
+#navbar #name {
+    margin: 15px 0px;
+    font-size: 60px;
+}
+
+#navbar #item {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    right: 280px;
+    top: 50px;
+}
+
+#navbar .class {
+    font-size: 25px;
+    margin: 0px 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    transition-property: all;
+    transition-duration:unset;
+    color: white;
+    text-decoration:none;
+}
+#navbar .class:hover{
+    cursor: pointer;
+    color: gray;
+    font-size: 30px;
+    transition-duration: 0.3s;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+ }
+
+#navbar .icon {
+    display: flex;
+    position: absolute;
+    right: 150px;
+    top: 62px;
+    width: 100px;
+    height: 50px;
+    padding: 0px 20px;
+    filter: invert();
+    transition-property: all;
+    transition-duration: unset;
+}
+#navbar .icon:hover{
+    cursor: pointer;
+}
+
+#navbar #search {
+    margin: 0px 12px;
+    width: 30px;
+    height: 30px;
+}
+#navbar #search:hover{
+    width: 38px;
+    height: 38px;
+}
+
+#navbar #twitter {
+    margin: 0px 15px;
+    width: 30px;
+    height: 30px;
+}
+#navbar #twitter:hover{
+    width: 38px;
+    height: 38px;
+}
+
+#navbar #facebook {
+    margin: 0px 12px;
+    width: 30px;
+    height: 30px;
+}
+#navbar #facebook:hover{
+    width: 38px;
+    height: 38px;
+}
+
+#navbar #instagram {
+    margin: 0px 12px;
+    width: 30px;
+    height: 30px;
+}
+#navbar #instagram:hover{
+    width: 38px;
+    height: 38px;
+}
+
+
+
+/* SECTION */
+
+
+
+
+.menu {
+    position: absolute;
+    top: 300px;
+    left: 29%;
+}
+
+#menu-1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    position: relative;
+    left: 90px;
+    animation-name: menu1;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menu1 {
+    0% {
+        top: -50px;
+        opacity: 0.0;
+    }
+
+    100% {
+        top: 0px
+    }
+}
+
+#menu-2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    animation-name: menu2;
+    animation-direction: normal;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes menu2 {
+    0% {
+        top: 50px;
+        opacity: 0.0;
+    }
+
+    50% {
+        top: 25px;
+        opacity: 0.5;
+    }
+
+    100% {
+        top: 0px;
+    }
+
+}
+
+.hat {
+    position: relative;
+    left: 330px;
+    animation-name: hat1;
+    animation-direction: normal;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hat1 {
+    0% {
+        top: -50px;
+        opacity: 0.0;
+    }
+
+    100% {
+        top: 0px;
+    }
+
+}
+
+
+
+
+
+
+ .category {
+    position: absolute;
+    top: 115vh;
+    left: 40%;
+    align-items: center;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+.foodimg{
+    display: flex;
+    position:absolute;
+    top: 133vh;
+    left: 100px;
+    color: black;
+    justify-content: space-around;
+}
+.foodimg .meal{
+    width: 280px;
+    height: 330px;
+    transition-property: all;
+    border-radius: 12px;
+}
+.foodimg .meal:hover{
+    cursor: pointer;
+    width: 300px;
+    height: 350px;
+    transition-duration: 1s;
+}
+
+.mealname {
+    display: flex;
+    margin: 0px -10px;
+}
+
+.meal-1 {
+    position: relative;
+    top: 360px;
+    left: -215px;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+}
+.meal-1:hover {
+    cursor: pointer;
+}
+.meal-2{
+    position: relative;
+    top: 360px;
+    left: -215px;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+}
+.meal-2:hover {
+    cursor: pointer;
+}
+.meal-3{
+    position: relative;
+    top: 360px;
+    left: -215px;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+}
+.meal-3:hover {
+    cursor: pointer;
+}
+.meal-4{
+    position: relative;
+    top: 360px;
+    left: -215px;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+}
+.meal-4:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.mostpop {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    position: absolute;
+    top: 200vh;
+    color: black;
+    left: 39%;
+}
+
+.pop {
+    display: flex;
+    position: relative;
+}
+
+.poprecip {
+    /* border: 2px solid black; */
+    position: relative;
+    top: 207vh;
+    left: 5vh;
+    width: 320px;
+    height: 240px;
+    margin: 0px 20px;
+    border-radius: 12px;
+}
+
+#pop1 {
+    background-image: url(ice_sweet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition-property: all;
+    transition-duration: 1.5s;
+    border-radius: 10px;
+}
+
+#pop1:hover {
+    cursor: pointer;
+    background-size: 108% 108%;
+}
+
+#pop2 {
+    background-image: url(capricciosa_pizza.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition-property: all;
+    transition-duration: 1.5s;
+    border-radius: 10px;
+}
+
+#pop2:hover {
+    cursor: pointer;
+    background-size: 110% 110%;
+}
+
+#pop3 {
+    background-image: url(cheese_burger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition-property: all;
+    transition-duration: 1.5s;
+    border-radius: 10px;
+}
+
+#pop3:hover {
+    cursor: pointer;
+    background-size: 110% 110%;
+}
+
+#pop4 {
+    background-image: url(sidecar_juice.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition-property: all;
+    transition-duration: 1.5s;
+    border-radius: 10px;
+}
+
+#pop4:hover {
+    cursor: pointer;
+    background-size: 110% 110%;
+}
+
+#titlename {
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+    font-weight: bolder;
+}
+#title1{
+    margin: 0px 100px;
+}
+#title2{
+    margin: 0px 93px;
+}
+#title3{
+    margin: 0px 80px;
+}
+#title4{
+    margin: 0px 123px;
+}
+#titlename:hover{
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: baseline;
+    top: 245vh;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.foot {
+    display: flex;
+    margin: 7px 40px;
+    align-items: center;
+    justify-items: end;
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 35vh;
+    border: 2px solid white;
+}
+.foot1{
+    font-size: 20px;
+    margin: 0px 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+}
+.foot1:hover{
+    cursor: pointer;
+    color: rgb(94, 94, 252);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:rgb(215, 238, 252);
+    border: 2px solid rgb(215, 238, 252) ;   
+}
